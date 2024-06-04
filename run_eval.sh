@@ -10,7 +10,7 @@ for seed in 1 2 3 4 5; do
 
 for method in AGGD; do
 
-bash ./scripts/eval_adv.sh ${seed} 30 500 1 30 ${method} ${model} ${dataset} ${model} ${dataset}
+bash ./scripts/eval_adv.sh ${seed} 30 2000 1 30 ${method} ${model} ${dataset} ${model} ${dataset}
 
 done
 
